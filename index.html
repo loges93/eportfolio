@@ -2,78 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logan's ePortfolio</title>
+    <title>Logan Riedell - CS 499 ePortfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
             margin: 0;
             padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
             text-align: center;
-            background-color: #f4f4f4;
+            color: #2c3e50;
         }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1em 0;
+        ul {
+            list-style-type: none;
+            padding: 0;
         }
-        nav a {
-            color: white;
-            margin: 0 15px;
+        li {
+            background: #ecf0f3;
+            margin: 10px 0;
+            padding: 12px 20px;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+        li:hover {
+            background: #d0d7de;
+        }
+        a {
             text-decoration: none;
-            font-size: 1.2em;
+            color: #34495e;
+            font-weight: bold;
         }
-        .hero {
-            padding: 50px 20px;
-            background: #6200ea;
-            color: white;
+        a:hover {
+            text-decoration: underline;
         }
-        .hero h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        .about {
-            padding: 30px;
-            background: white;
-            margin: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .contact {
-            padding: 20px;
-            background: #333;
-            color: white;
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    
-    <section class="hero">
-        <h1>Welcome to My ePortfolio</h1>
-        <p>Hi, I'm Logan - a full-stack development student passionate about automation and software development.</p>
-    </section>
-    
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>I am currently studying full-stack development, focusing on automation and backend systems. This ePortfolio showcases my work and learning journey.</p>
-    </section>
-    
-    <section id="projects" class="about">
-        <h2>Projects</h2>
-        <p>Coming soon! Check back later to see my featured projects.</p>
-    </section>
-    
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <p>Email: logan.j.riedell@gmail.com</p>
-        <p><a href="https://github.com/yourgithub" style="color: #fff;">GitHub</a> | <a href="https://linkedin.com/in/yourprofile" style="color: #fff;">LinkedIn</a></p>
-    </section>
+    <div class="container">
+        <h1>Logan Riedell - CS 499 ePortfolio</h1>
+
+        <h2>Professional Self-Assessment</h2>
+        <ul>
+            <li><a href="Reflection_Logan Riedell.docx" target="_blank">Download Self-Assessment</a></li>
+        </ul>
+
+        <h2>Milestone Narratives</h2>
+        <ul>
+            <li><a href="Final Folder/Milestone Narratives/Milestone 1 Logan Riedell.docx" target="_blank">Milestone 1: Software Design and Engineering</a></li>
+            <li><a href="Final Folder/Milestone Narratives/Milestone 2 Logan Riedell.docx" target="_blank">Milestone 2: Algorithms and Data Structures</a></li>
+            <li><a href="Final Folder/Milestone Narratives/Milestone 3 Logan Riedell.docx" target="_blank">Milestone 3: Databases</a></li>
+        </ul>
+
+        <h2>Technical Artifacts</h2>
+        <ul>
+            <li><a href="Final Folder/Technical Artifacts/ContactService_SoftwareTestingAutomation-m..." target="_blank">Original Contact Service</a></li>
+            <li><a href="Final Folder/Technical Artifacts/ContactService2.0" target="_blank">Enhanced Contact Service (Python Version)</a></li>
+        </ul>
+
+        <footer>
+            Created by Logan Riedell | CS 499 Capstone | Southern New Hampshire University
+        </footer>
+    </div>
 </body>
 </html>
+
